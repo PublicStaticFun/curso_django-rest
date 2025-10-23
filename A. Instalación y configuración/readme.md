@@ -43,7 +43,7 @@ La distribución sera la siguiente:
     * `production.py`: Configuración para el entorno de producción (seguridad, logs, etc.).
 5. Configurar `INSTALLED_APPS` de manera modular:
 Dentro de `base.py`, se recomienda dividir las aplicaciones en tres listas:
-![Código de base.py](https://github.com/PublicStaticFun/curso_django-rest/blob/main/A.%20Instalaci%C3%B3n%20y%20configuraci%C3%B3n/Imagenes/Codigo1A.png?raw=true)
+> ![Código de base.py](https://github.com/PublicStaticFun/curso_django-rest/blob/main/A.%20Instalaci%C3%B3n%20y%20configuraci%C3%B3n/Imagenes/Codigo1A.png?raw=true)
 6. Crear la carpeta de aplicaciones:
 En el directorio raíz, crear una carpeta para las apps personalizadas.
 7. Crear la aplicación de usuarios personalizados:
