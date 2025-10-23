@@ -50,11 +50,12 @@ En el directorio raíz, crear una carpeta para las apps personalizadas.
 El siguiente paso es crear la app de usuarios, fundamental para la autenticación:
 `python manage.py startapp users`.
 8. Se agregan los modelos y configuraciones correspondientes a esa carpeta:
-![Código de usuarios.py](https://github.com/PublicStaticFun/curso_django-rest/blob/main/A.%20Instalaci%C3%B3n%20y%20configuraci%C3%B3n/Imagenes/Codigo1B.png?raw=true)
+> ![Código de usuarios.py](https://github.com/PublicStaticFun/curso_django-rest/blob/main/A.%20Instalaci%C3%B3n%20y%20configuraci%C3%B3n/Imagenes/Codigo1B.png?raw=true)
+> ![Código de auth user.py](https://github.com/PublicStaticFun/curso_django-rest/blob/main/A.%20Instalaci%C3%B3n%20y%20configuraci%C3%B3n/Imagenes/Codigo1C.png?raw=true)
 Este modelo utiliza `django-simple-history` para registrar cambios en la base de datos.
 9. Configurar `AUTH_USER_MODEL`:
 En `base.py`, se define que el modelo de usuario personalizado será el principal del sistema.
-![Código de auth user.py](https://github.com/PublicStaticFun/curso_django-rest/blob/main/A.%20Instalaci%C3%B3n%20y%20configuraci%C3%B3n/Imagenes/Codigo1C.png?raw=true)
+> ![Código de auth user.py](https://github.com/PublicStaticFun/curso_django-rest/blob/main/A.%20Instalaci%C3%B3n%20y%20configuraci%C3%B3n/Imagenes/Codigo1D.png?raw=true)
 10. Instalar dependencias adicionales:
 Antes de crear las migraciones, Django necesita la libreria Pillow para manejar imagenes:
 `pip install pillow`, y también se instala el historial de cambios: `pip install django-simple-history`.
